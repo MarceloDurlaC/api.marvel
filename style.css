@@ -1,0 +1,148 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #ED1D24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  nav {
+    margin-left: auto;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  form input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+  }
+  
+  form button {
+    background-color: #fff;
+    color: #ED1D24;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para o corpo principal */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  section h2 {
+    color: #ED1D24;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  article {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  }
+  
+  article img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  article h3 {
+    color: #ED1D24;
+    font-size: 1.2em;
+    margin: 10px 0 0 10px;
+  }
+  
+  article p {
+    margin: 10px;
+    font-size: 0.9em;
+  }
+  
+  article a {
+    display: block;
+    background-color: #ED1D24;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  article a:hover {
+    background-color: #fff;
+    color: #ED1D24;
+    border: 1px solid #ED1D24;
+  }
+  
+  /* Estilos para a seção de destaque */
+  #destaques {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  #destaques h2 {
+    color: #ED1D24;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  
+  /* Estilos para a seção de filmes */
+  #filmes {
+    background-color: #F4F4F4;
+    padding: 20px;
+  }
+  
+  #filmes h2 {
+    color: #ED1D24;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  
+  /* Estilos para a seção de personagens */
+  #personagens {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilos para a
